@@ -8,11 +8,15 @@
     */
 
     //ENTRADA
-
+    const idade = Number (prompt("Qual a idade do pet ?"));
+    const preço = Number (prompt("Qual será o custo da consulta anualmente ?"));
+    const preço2 = Number (prompt("E quanto custa pela aplicação de vacinas ?"));
 
     //PROCESSAMENTO
-
+    const result = preço * preço2 ;
+    const result2 = idade * result ;
 
     //SAÍDA
+    document.write(`Anualmente o dono do pet terá que gastar R$${result2} nos cuidados da vida do pet pelo resto da vida dele`);
 
 </script>

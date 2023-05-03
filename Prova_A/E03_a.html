@@ -7,11 +7,18 @@
     */
 
     //ENTRADA
+    const nota = Number (prompt("Quanto vc tirou na primeira atividade ?"));
+    const nota2 = Number (prompt("Quanto vc tirou na segunda ?"));
+    const nota3 = Number (prompt("E na terceira ?"));
 
 
     //PROCESSAMENTO
+    const result = nota / 3
+    const result2 = nota2 / 4
+    const result3 = nota3 / 3
+    const result4 = result + result2 + result3
 
 
     //SAÍDA
-
+    document.write(`O aluno tirou ${result4} na média no fim do trimestre`);
 </script>
